@@ -1,2 +1,2 @@
 # My-Bio
- Documentações que falam mias sobre mim. Docs that telling more about me.
+ Documentações que falam mais sobre mim. Docs that telling more about me.
