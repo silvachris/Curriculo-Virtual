@@ -1,59 +1,50 @@
-<!DOCTYPE html>
-<html lang="pt_BR">
-<head>
-    <div class="cabecalho">
-        SITE EM CONSTRUÇÃO
-        <h1>  Christopher Freitas Araujo da Silva</h1> 
-        <h2>Python/Flask | Javascript/HTML/CSS | UX Designer | POWER BI/MS Office </h2>
-    </div>
-    
-    <script
-      src="https://platform.linkedin.com/badges/js/profile.js"
-      async
-      defer
-      type="text/javascript"
-    ></script>
-    
-    <div
-      class="badge-base LI-profile-badge"
-      data-locale="pt_BR"
-      data-size="medium"
-      data-theme="light"
-      data-type="VERTICAL"
-      data-vanity="silvachris2"
-      data-version="v1"
-    >
-      <a
-        class="badge-base__link LI-simple-link"
-        href="https://br.linkedin.com/in/silvachris2?trk=profile-badge"
-        >Meu Linkedin</a
-      >
-    <a href="https://www.github.com/silvachris">GitHub</a>    
-    </div>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curriculo Christopher Silva</title>
-    <link rel="stylesheet" href="main.css">
+<!DOCTYPE html><!--definindo documento-->
+<html lang="pt-br" class="light"> <!--root element/raiz e atributo-->
+<head> <!--tag filha - cabeçalho-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <meta charset="UTF-8"><!--meta configurações para caracteres-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- configuração para que a area visivel tenha escala para o dispositivo -->
+    <title>Christopher Silva</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body class="curriculo">
-    
-        <p id="msg"><strong>Contato</strong></p>
-            <ul>
-                <li class="list">Celular: +55 13 991252545</li>
-                <li class="list">E-MAIL: christopher.f.silva@live.com</li>
+<body>
+    <div id="container">
+        <div id="profile">
+            <img src="./assets/avatar.png" alt="Foto de Christopher Silva de perfil, com franja de lado, sorrindo com barba enquanto olha para frente, vestindo camiseta polo na cor vinho e fundo do céu azul em dia ensolarado.">
+            <p>
+                Christopher Silva
+            </p>
+        </div>
+        <div id="switch" onclick="toggleMode()">
+            <button></button>
+            <span></span>
+        </div>
 
-            </ul>
-        <p id="msg"><strong>Certificados:</strong></p>
-            <ul>
-                <li>User Experience (UX) - FIAP</li>
-                <li>Power BI - VIA SA</li>
-                <li>EXCEL do básico ao avançado - VIA SA</li>
-                <li>Scrum - VIA SA</LI>
-                <li>Kanban - VIA SA</li>
-                <li>Metodologia Ágil - VIA SA</li>
-                <li>LGPD / Lei Geral de Proteção de Dados - VIA SA</li>
-                <li>Segurança da informação - VIA SA</li> 
-            </ul>
+        <ul>
+            <li><a href="#" target="_blank">Curriculo</a></li>
+            <li><a href="#" target="_blank">Projetos Sociais</a></li>
+            <li><a href="#" target="_blank">Portifolio</a></li>
+        </ul>
+        <div id="social-links">
+            <a href="https://www.linkedin.com/in/silvachris2" target="_blank">
+                <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+            <a href="https://www.github.com/silvachris" target="_blank">
+                <ion-icon name="logo-github"></ion-icon>
+            </a>
+            <a href="https://www.instagram.com/silvachris2" target="_blank">
+                <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+        </div>
+        <footer>
+            Developed by Christopher Silva
+        </footer>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="./app.js"></script>
 </body>
 </html>
+<a href=""></a>
