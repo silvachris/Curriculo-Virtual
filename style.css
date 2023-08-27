@@ -83,7 +83,7 @@ body * {
 }
 .light #switch button{
     animation: slide-in 0.4s forwards;
-
+}
 #switch button:hover{
     outline: 8px solid var(--highlight-color);
 }
@@ -170,6 +170,7 @@ footer{
     }to{
         left: 50%;
     }
+}
 @keyframes slide-out {
     from {
         left: 50%;
@@ -177,5 +178,3 @@ footer{
         left: 0;
     }
 }
-```
-```
